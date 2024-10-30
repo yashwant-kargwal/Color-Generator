@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(255,255,255 );
+}
+
+div{
+    margin-top: 10px;
+    background-color: #fff;
+    height: 61px;
+    width: 250px;
+    min-width: fit-content;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+.btn{
+    border: 2px solid #fff;
+}
